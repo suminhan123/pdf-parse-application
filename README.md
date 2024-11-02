@@ -13,10 +13,11 @@
 ```
 npm install
 or
-yarn add
+yarn install
 ```
 
 ```
 npm start
-or yarn start
+or
+yarn start
 ```
