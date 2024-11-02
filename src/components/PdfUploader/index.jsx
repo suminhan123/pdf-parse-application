@@ -1,4 +1,4 @@
-import "./PdfUploader.css";
+import "./index.css";
 
 const PdfUploader = ({ setPdfFile }) => {
   const onChange = (event) => {

@@ -1,0 +1,7 @@
+.pdfUploader {
+  gap: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 400px;
+}
