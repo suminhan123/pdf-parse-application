@@ -1,6 +1,7 @@
 import { useCallback, useState } from "react";
 import "./App.css";
 import PdfUploader from "./components/PdfUploader";
+import PdfViewer from "./components/PdfViewer";
 
 function App() {
   const [pdf, setPdf] = useState();
@@ -11,8 +12,8 @@ function App() {
 
   return (
     <div className="App">
-      메인페이지
       <PdfUploader setPdfFile={handleSetPdf} />
+      <PdfViewer pdfFile={pdf} />
     </div>
   );
 }
