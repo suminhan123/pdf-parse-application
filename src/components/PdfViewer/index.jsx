@@ -1,11 +1,5 @@
-import * as pdfjsLib from "pdfjs-dist";
 import "./index.css";
 import { usePdfTexts } from "../../hooks/usePdfTexts";
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
-  "pdfjs-dist/build/pdf.worker.min.mjs",
-  import.meta.url
-).toString();
 
 const PdfViewer = ({ pdfFile }) => {
   const table = usePdfTexts(pdfFile);
